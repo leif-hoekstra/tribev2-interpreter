@@ -93,7 +93,7 @@ def build_all(output_dir=None):
         out_path = output_dir / f"{name}.npy"
         if out_path.exists():
             logger.info("  %s already exists, skipping", name)
-            manifest[name] = {"path": str(out_path), "source": info["url"]}
+            manifest[name] = {"source": info["url"]}
             success += 1
             continue
 
@@ -119,7 +119,7 @@ def build_all(output_dir=None):
             if norm > 1e-12:
                 combined /= norm
             np.save(out_path, combined)
-            manifest[name] = {"path": str(out_path), "source": info["url"]}
+            manifest[name] = {"source": info["url"]}
             print(f"  Saved {name} ({combined.shape}, norm={norm:.3f})")
             success += 1
         except Exception as exc:

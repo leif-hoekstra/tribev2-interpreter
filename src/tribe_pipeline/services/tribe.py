@@ -63,7 +63,15 @@ class TribeService:
         if self._model is not None:
             return self._model
 
-        from tribev2 import TribeModel
+        try:
+            from tribev2 import TribeModel
+        except ImportError as exc:
+            raise ModuleNotFoundError(
+                "The 'tribev2' package is required for TribeService but is not installed. "
+                "It is not published on PyPI; install it separately from Meta's TribeV2 "
+                "repository or follow the Hugging Face model card for facebook/tribev2. "
+                "See the NOTE above [project.dependencies] in pyproject.toml."
+            ) from exc
 
         Path(self._cache_folder).mkdir(parents=True, exist_ok=True)
         logger.info("Loading TribeV2 model from %s", self._checkpoint)

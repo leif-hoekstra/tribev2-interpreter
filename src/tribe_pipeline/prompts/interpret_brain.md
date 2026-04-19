@@ -31,7 +31,7 @@ Three independent evidence streams:
    - `status="unavailable"` — no data. **Do not mention these structures at all.**
 
 3. **Affect dimensions** — dot-product expression of published brain-based affect signatures
-   (PINES, NPS, Kragel 2021). Positive = pattern expressed; negative = suppressed.
+   (PINES, NPS, Kragel 2015). Positive = pattern expressed; negative = suppressed.
    If empty, no templates were loaded — omit this stream from your reasoning.
 
 ## What to de-emphasize

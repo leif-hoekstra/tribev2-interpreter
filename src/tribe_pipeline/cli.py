@@ -272,7 +272,7 @@ def build_baseline_command(args):
 
 
 def build_affect_templates_command(args):
-    """Download and resample PINES, NPS, Kragel 2021 templates."""
+    """Download and resample PINES and Kragel 2015 templates."""
     from tribe_pipeline.reference.build_affect import build_all
     build_all()
     return 0
