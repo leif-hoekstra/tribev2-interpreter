@@ -17,8 +17,8 @@ from pathlib import Path
 TRIBE_CHECKPOINT = "facebook/tribev2"
 DEFAULT_CACHE_FOLDER = "./cache"
 DEFAULT_OUTPUT_DIR = "./out"
-DEFAULT_LLM_MODEL = "gpt-5.4"
-DEFAULT_BASELINE = "canonical"
+DEFAULT_LLM_MODEL = "gpt-5.4" # Thinking model would work better but for MVP this is fine
+DEFAULT_BASELINE = "canonical" # none for no subtractions (raw predictions) -> I have had better results with canonical
 
 CPU_CONFIG_UPDATE = {
     "data.text_feature.device": "cpu",
@@ -26,7 +26,7 @@ CPU_CONFIG_UPDATE = {
     "data.video_feature.image.device": "cpu",
     "data.image_feature.image.device": "cpu",
     "accelerator": "cpu",
-}
+} 
 
 
 @dataclass

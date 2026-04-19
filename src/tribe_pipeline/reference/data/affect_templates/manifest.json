@@ -1,0 +1,30 @@
+{
+  "negative_affect_pines": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/negative_affect_pines.npy",
+    "source": "https://neurovault.org/media/images/306/Rating_Weights_LOSO_2.nii.gz"
+  },
+  "emotion_fear": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_fear.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_fearful_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  },
+  "emotion_sadness": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_sadness.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_sad_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  },
+  "emotion_anger": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_anger.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_angry_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  },
+  "emotion_amusement": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_amusement.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_amused_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  },
+  "emotion_contentment": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_contentment.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_content_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  },
+  "emotion_surprise": {
+    "path": "/Users/leifh/Documents/projects/Tribev2/pipeline/src/tribe_pipeline/reference/data/affect_templates/emotion_surprise.npy",
+    "source": "https://neurovault.org/media/images/12383/mean_3comp_surprised_group_emotion_PLS_beta_BSz_10000it.nii.gz"
+  }
+}

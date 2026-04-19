@@ -5,9 +5,17 @@ This is a one-time developer script.  End users run it via:
     tribe-pipeline build-affect-templates
 
 Sources:
-  PINES  — Chang et al. 2015, NeuroVault collection 503
-  NPS    — Wager et al. 2013, NeuroVault collection 504
-  Kragel — Kragel et al. 2021, NeuroVault collection 8245
+  PINES  — Chang et al. 2015, PLoS Biology
+           (NeuroVault collection 306, image "Rating_Weights_LOSO_2")
+  Kragel — Kragel & LaBar 2015, SCAN
+           (NeuroVault collection 12383, 3-component PLS group maps)
+
+NPS (Wager et al. 2013) is intentionally NOT fetched here because the
+canonical weight map is only distributed through the CANlab lab under a
+usage agreement (Masks_Private/NPS_share) and has no public direct-download
+URL.  If you have obtained it, resample to fsaverage5, unit-normalise, and
+drop it into ``reference/data/affect_templates/pain_nps.npy`` — AffectService
+will pick it up automatically.
 
 Requirements:
   pip install nilearn  (already a dependency)
@@ -27,38 +35,36 @@ logger = logging.getLogger(__name__)
 
 _TEMPLATE_DIR = Path(__file__).parent / "data" / "affect_templates"
 
+_KRAGEL_BASE = "https://neurovault.org/media/images/12383"
+
 NEUROVAULT_IMAGES = {
     "negative_affect_pines": {
-        "url": "https://neurovault.org/media/images/503/pines_final.nii.gz",
+        "url": "https://neurovault.org/media/images/306/Rating_Weights_LOSO_2.nii.gz",
         "description": "PINES — general negative affect (Chang 2015)",
     },
-    "pain_nps": {
-        "url": "https://neurovault.org/media/images/504/weights_NSF_grouppred_cvpcr.img",
-        "description": "NPS — pain / aversive somatic (Wager 2013)",
-    },
     "emotion_fear": {
-        "url": "https://neurovault.org/media/images/8245/Fear_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: fear",
+        "url": f"{_KRAGEL_BASE}/mean_3comp_fearful_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: fear",
     },
     "emotion_sadness": {
-        "url": "https://neurovault.org/media/images/8245/Sadness_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: sadness",
+        "url": f"{_KRAGEL_BASE}/mean_3comp_sad_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: sadness",
     },
     "emotion_anger": {
-        "url": "https://neurovault.org/media/images/8245/Anger_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: anger",
-    },
-    "emotion_joy": {
-        "url": "https://neurovault.org/media/images/8245/Joy_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: joy",
+        "url": f"{_KRAGEL_BASE}/mean_3comp_angry_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: anger",
     },
     "emotion_amusement": {
-        "url": "https://neurovault.org/media/images/8245/Amusement_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: amusement",
+        "url": f"{_KRAGEL_BASE}/mean_3comp_amused_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: amusement",
     },
     "emotion_contentment": {
-        "url": "https://neurovault.org/media/images/8245/Contentment_SVM.nii.gz",
-        "description": "Kragel 2021 — discrete emotion: contentment",
+        "url": f"{_KRAGEL_BASE}/mean_3comp_content_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: contentment",
+    },
+    "emotion_surprise": {
+        "url": f"{_KRAGEL_BASE}/mean_3comp_surprised_group_emotion_PLS_beta_BSz_10000it.nii.gz",
+        "description": "Kragel 2015 — discrete emotion: surprise",
     },
 }
 

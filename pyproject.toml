@@ -46,7 +46,6 @@ where = ["src"]
 [tool.setuptools.package-data]
 "tribe_pipeline.reference" = ["data/*.npy", "data/*.json", "data/affect_templates/*.npy"]
 "tribe_pipeline.baseline" = ["data/*.npy", "data/*.json"]
-"tribe_pipeline.validation" = ["stimuli/*.txt"]
 "tribe_pipeline.prompts" = ["*.md"]
 
 [tool.pytest.ini_options]

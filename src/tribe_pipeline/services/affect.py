@@ -33,13 +33,12 @@ _TEMPLATE_PKG = "tribe_pipeline.reference.data"
 AFFECT_CATALOG = {
     "negative_affect_pines": "PINES (Chang 2015) — general negative affect",
     "pain_nps": "NPS (Wager 2013) — aversive somatic / pain affect",
-    "emotion_fear": "Kragel 2021 discrete-emotion pattern — fear",
-    "emotion_sadness": "Kragel 2021 discrete-emotion pattern — sadness",
-    "emotion_anger": "Kragel 2021 discrete-emotion pattern — anger",
-    "emotion_joy": "Kragel 2021 discrete-emotion pattern — joy",
-    "emotion_amusement": "Kragel 2021 discrete-emotion pattern — amusement",
-    "emotion_surprise": "Kragel 2021 discrete-emotion pattern — surprise",
-    "emotion_contentment": "Kragel 2021 discrete-emotion pattern — contentment",
+    "emotion_fear": "Kragel 2015 discrete-emotion pattern — fear",
+    "emotion_sadness": "Kragel 2015 discrete-emotion pattern — sadness",
+    "emotion_anger": "Kragel 2015 discrete-emotion pattern — anger",
+    "emotion_amusement": "Kragel 2015 discrete-emotion pattern — amusement",
+    "emotion_surprise": "Kragel 2015 discrete-emotion pattern — surprise",
+    "emotion_contentment": "Kragel 2015 discrete-emotion pattern — contentment",
 }
 
 

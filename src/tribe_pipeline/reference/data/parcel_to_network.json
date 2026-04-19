@@ -31,6 +31,7 @@
   "G_precuneus": "default",
   "G_rectus": "default",
   "G_subcallosal": "limbic",
+  "G_temp_sup-G_T_transv": "somatomotor",
   "G_temp_sup-G_temp_transv_and_interm_S": "somatomotor",
   "G_temp_sup-Lateral": "default",
   "G_temp_sup-Plan_polar": "somatomotor",
@@ -40,6 +41,7 @@
   "Lat_Fis-ant-Horizont": "ventral_attention",
   "Lat_Fis-ant-Vertical": "ventral_attention",
   "Lat_Fis-post": "somatomotor",
+  "Medial_wall": "default",
   "Pole_occipital": "visual",
   "Pole_temporal": "default",
   "S_calcarine": "visual",
@@ -72,7 +74,5 @@
   "S_subparietal": "default",
   "S_temporal_inf": "default",
   "S_temporal_sup": "default",
-  "S_temporal_transverse": "somatomotor",
-  "G_temp_sup-G_T_transv": "somatomotor",
-  "Medial_wall": "default"
+  "S_temporal_transverse": "somatomotor"
 }
