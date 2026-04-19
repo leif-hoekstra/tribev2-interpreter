@@ -1,0 +1,534 @@
+{
+  "G_Ins_lg_and_S_cent_ins": {
+    "network": "ventral_attention",
+    "functional_role": "mid/posterior insula",
+    "terms": ["interoception", "visceral sensation", "pain", "anxiety", "disgust", "body awareness"],
+    "affect_relevance": 0.8,
+    "notes": "Mid-insula processes visceral signals; anterior insula (short gyri) codes subjective emotional states."
+  },
+  "G_and_S_cingul-Ant": {
+    "network": "default",
+    "functional_role": "anterior cingulate cortex (ACC)",
+    "terms": ["conflict monitoring", "error detection", "emotional salience", "pain affect", "self-control"],
+    "affect_relevance": 0.75,
+    "notes": "Dorsal ACC monitors cognitive conflict; ventral ACC (subgenual) regulates emotion."
+  },
+  "G_and_S_cingul-Mid-Ant": {
+    "network": "default",
+    "functional_role": "mid-anterior cingulate cortex",
+    "terms": ["pain affect", "attention", "effortful control", "emotional motivation"],
+    "affect_relevance": 0.65,
+    "notes": "Bridging region between cognitive and affective cingulate zones."
+  },
+  "G_and_S_cingul-Mid-Post": {
+    "network": "default",
+    "functional_role": "posterior mid-cingulate cortex",
+    "terms": ["sensorimotor integration", "attention to action", "orientation"],
+    "affect_relevance": 0.35,
+    "notes": "Interfaces with motor and parietal regions; less directly affective than anterior cingulate."
+  },
+  "G_and_S_frontomargin": {
+    "network": "frontoparietal",
+    "functional_role": "frontomarginal gyrus (anterior PFC)",
+    "terms": ["prospective memory", "social cognition", "abstract reasoning", "meta-cognition"],
+    "affect_relevance": 0.4,
+    "notes": "Anterior-most prefrontal cortex; implicated in complex social and moral judgments."
+  },
+  "G_and_S_occipital_inf": {
+    "network": "visual",
+    "functional_role": "inferior occipital cortex (V3/V4)",
+    "terms": ["early visual processing", "object recognition", "color", "ventral visual stream"],
+    "affect_relevance": 0.1,
+    "notes": "Low-level visual processing; modest affect relevance via emotional image processing."
+  },
+  "G_and_S_paracentral": {
+    "network": "somatomotor",
+    "functional_role": "paracentral lobule (lower extremity motor/somatosensory)",
+    "terms": ["foot and leg motor control", "somatosensory processing", "micturition"],
+    "affect_relevance": 0.05,
+    "notes": "Medial motor/sensory region; low direct emotion relevance."
+  },
+  "G_and_S_subcentral": {
+    "network": "somatomotor",
+    "functional_role": "subcentral gyrus (secondary somatosensory cortex, parietal operculum)",
+    "terms": ["tactile discrimination", "pain somatosensory", "body schema"],
+    "affect_relevance": 0.3,
+    "notes": "SII processes tactile and pain signals; contributes to somatic aspects of emotion."
+  },
+  "G_and_S_transv_frontopol": {
+    "network": "frontoparietal",
+    "functional_role": "transverse frontopolar gyri (anterior PFC)",
+    "terms": ["branching working memory", "abstract reasoning", "future planning"],
+    "affect_relevance": 0.25,
+    "notes": "Frontopolar cortex; involved in complex social and temporal reasoning."
+  },
+  "G_cingul-Post-dorsal": {
+    "network": "default",
+    "functional_role": "dorsal posterior cingulate cortex",
+    "terms": ["attention", "spatial memory", "navigation", "mind-wandering"],
+    "affect_relevance": 0.45,
+    "notes": "Dorsal PCC supports attention and spatial cognition within the default mode."
+  },
+  "G_cingul-Post-ventral": {
+    "network": "default",
+    "functional_role": "ventral posterior cingulate cortex (PCC)",
+    "terms": ["self-referential processing", "autobiographical memory", "mind-wandering", "introspection"],
+    "affect_relevance": 0.6,
+    "notes": "Core DMN hub; deactivates during focused tasks; active during emotional self-reflection."
+  },
+  "G_cuneus": {
+    "network": "visual",
+    "functional_role": "cuneus (V2/V3 medial)",
+    "terms": ["primary visual cortex", "spatial frequency", "retinotopic mapping"],
+    "affect_relevance": 0.05,
+    "notes": "Early visual cortex; very low direct emotion relevance."
+  },
+  "G_front_inf-Opercular": {
+    "network": "frontoparietal",
+    "functional_role": "IFG pars opercularis (Broca area 44)",
+    "terms": ["speech production", "syntactic processing", "action understanding", "phonology"],
+    "affect_relevance": 0.3,
+    "notes": "Broca's area; important for language and understanding goal-directed actions."
+  },
+  "G_front_inf-Orbital": {
+    "network": "frontoparietal",
+    "functional_role": "IFG pars orbitalis (Broca area 47)",
+    "terms": ["semantic processing", "sentence comprehension", "pragmatics", "emotional language"],
+    "affect_relevance": 0.4,
+    "notes": "Supports semantic and pragmatic language; processes emotional valence in words."
+  },
+  "G_front_inf-Triangul": {
+    "network": "frontoparietal",
+    "functional_role": "IFG pars triangularis (Broca area 45)",
+    "terms": ["language production", "verbal working memory", "semantic retrieval", "syntax"],
+    "affect_relevance": 0.3,
+    "notes": "Key Broca region for language; activates during semantic and syntactic processing."
+  },
+  "G_front_middle": {
+    "network": "frontoparietal",
+    "functional_role": "middle frontal gyrus (DLPFC, BA9/46)",
+    "terms": ["working memory", "executive function", "cognitive control", "emotion regulation"],
+    "affect_relevance": 0.5,
+    "notes": "DLPFC is critical for top-down emotion regulation; suppresses amygdala responses."
+  },
+  "G_front_sup": {
+    "network": "default",
+    "functional_role": "superior frontal gyrus (medial PFC, BA8/9)",
+    "terms": ["self-referential thought", "theory of mind", "social reasoning", "volition"],
+    "affect_relevance": 0.55,
+    "notes": "Medial superior frontal; important for mentalizing and social-emotional cognition."
+  },
+  "G_insular_short": {
+    "network": "ventral_attention",
+    "functional_role": "anterior insular short gyri",
+    "terms": ["interoception", "disgust", "empathy", "subjective emotional feeling", "awareness"],
+    "affect_relevance": 0.9,
+    "notes": "Anterior insula is among the most affect-relevant cortical regions; tracks subjective emotional states and bodily feelings. Strong amygdala coupling (Seeley 2007)."
+  },
+  "G_oc-temp_lat-fusifor": {
+    "network": "visual",
+    "functional_role": "fusiform gyrus (lateral occipitotemporal)",
+    "terms": ["face recognition", "object recognition", "emotional faces", "visual form"],
+    "affect_relevance": 0.5,
+    "notes": "FFA (fusiform face area) in right hemisphere; especially responsive to emotional faces."
+  },
+  "G_oc-temp_med-Lingual": {
+    "network": "visual",
+    "functional_role": "lingual gyrus",
+    "terms": ["visual word form", "color processing", "scene perception", "visual memory"],
+    "affect_relevance": 0.15,
+    "notes": "Processes visual words and colors; modest role in emotional scene imagery."
+  },
+  "G_oc-temp_med-Parahip": {
+    "network": "default",
+    "functional_role": "parahippocampal gyrus",
+    "terms": ["scene memory", "spatial context", "episodic memory encoding", "contextual fear"],
+    "affect_relevance": 0.65,
+    "notes": "Parahippocampal cortex encodes spatial and contextual memory; important for contextual fear and emotional episodic memory."
+  },
+  "G_occipital_middle": {
+    "network": "visual",
+    "functional_role": "middle occipital cortex (MT+/V5 region)",
+    "terms": ["visual motion", "object recognition", "dorsal visual stream"],
+    "affect_relevance": 0.1,
+    "notes": "Motion and object visual processing; low direct emotion relevance."
+  },
+  "G_occipital_sup": {
+    "network": "visual",
+    "functional_role": "superior occipital cortex (dorsal stream)",
+    "terms": ["visuospatial processing", "spatial attention", "dorsal visual stream"],
+    "affect_relevance": 0.05,
+    "notes": "Dorsal 'where' stream; low direct emotion relevance."
+  },
+  "G_orbital": {
+    "network": "limbic",
+    "functional_role": "orbitofrontal cortex (OFC, lateral/central)",
+    "terms": ["reward valuation", "punishment learning", "emotional decision-making", "taste", "olfaction"],
+    "affect_relevance": 0.8,
+    "notes": "Lateral OFC responds to punishment; central OFC to reward. Strong coupling with amygdala and ventral striatum (Hare 2009)."
+  },
+  "G_pariet_inf-Angular": {
+    "network": "default",
+    "functional_role": "angular gyrus (TPJ region)",
+    "terms": ["semantic integration", "theory of mind", "narrative comprehension", "social cognition", "number"],
+    "affect_relevance": 0.55,
+    "notes": "Angular gyrus / TPJ is a key DMN and social cognition node; integrates semantic and social information."
+  },
+  "G_pariet_inf-Supramar": {
+    "network": "dorsal_attention",
+    "functional_role": "supramarginal gyrus (SMG)",
+    "terms": ["phonological memory", "action observation", "spatial attention", "empathy for pain"],
+    "affect_relevance": 0.35,
+    "notes": "Right SMG contributes to emotional empathy and phonological working memory."
+  },
+  "G_parietal_sup": {
+    "network": "dorsal_attention",
+    "functional_role": "superior parietal lobule (SPL)",
+    "terms": ["visuospatial attention", "spatial working memory", "tool use", "goal-directed movement"],
+    "affect_relevance": 0.1,
+    "notes": "Dorsal attention network; low direct emotion relevance."
+  },
+  "G_postcentral": {
+    "network": "somatomotor",
+    "functional_role": "postcentral gyrus (primary somatosensory cortex, SI)",
+    "terms": ["touch", "proprioception", "somatosensory processing", "pain somatosensory"],
+    "affect_relevance": 0.2,
+    "notes": "SI processes the somatosensory dimension of pain, but not the affective dimension."
+  },
+  "G_precentral": {
+    "network": "somatomotor",
+    "functional_role": "precentral gyrus (primary motor cortex, M1)",
+    "terms": ["motor control", "voluntary movement", "speech motor", "action execution"],
+    "affect_relevance": 0.1,
+    "notes": "Primary motor cortex; minimal direct emotion relevance outside embodied simulation."
+  },
+  "G_precuneus": {
+    "network": "default",
+    "functional_role": "precuneus (medial superior parietal)",
+    "terms": ["self-referential processing", "mental imagery", "episodic memory", "consciousness"],
+    "affect_relevance": 0.6,
+    "notes": "Key DMN hub; active during vivid mental imagery and self-related emotional memories."
+  },
+  "G_rectus": {
+    "network": "limbic",
+    "functional_role": "gyrus rectus (medial OFC)",
+    "terms": ["reward processing", "olfaction", "moral judgment", "value-based decision making"],
+    "affect_relevance": 0.75,
+    "notes": "Medial most OFC; codes subjective reward value and is strongly linked to ventral striatum."
+  },
+  "G_subcallosal": {
+    "network": "limbic",
+    "functional_role": "subgenual anterior cingulate cortex (sgACC, BA25)",
+    "terms": ["negative affect", "depression", "rumination", "anhedonia", "emotion regulation", "mood"],
+    "affect_relevance": 0.95,
+    "notes": "Primary target of deep-brain stimulation for treatment-resistant depression (Mayberg 2005). Hub for negative affect and mood regulation. Directly wired to hypothalamus and amygdala."
+  },
+  "G_temp_sup-G_T_transv": {
+    "network": "somatomotor",
+    "functional_role": "Heschl's gyrus (primary auditory cortex, A1)",
+    "terms": ["primary auditory processing", "sound detection", "pitch", "auditory onset"],
+    "affect_relevance": 0.1,
+    "notes": "Primary auditory cortex; will always activate for any audio stimulus. Use contrast subtraction to remove TTS baseline."
+  },
+  "G_temp_sup-G_temp_transv_and_interm_S": {
+    "network": "somatomotor",
+    "functional_role": "Heschl's gyrus transverse / intermediate (A1/R)",
+    "terms": ["primary auditory processing", "tonotopy", "auditory cortex"],
+    "affect_relevance": 0.1,
+    "notes": "Primary auditory region; auditory-input confound -- interpret in context of contrast."
+  },
+  "G_temp_sup-Lateral": {
+    "network": "default",
+    "functional_role": "lateral superior temporal gyrus / posterior STS",
+    "terms": ["speech perception", "prosody", "social voice processing", "emotional speech", "multisensory"],
+    "affect_relevance": 0.65,
+    "notes": "Posterior STS processes the social and emotional qualities of voice; tracks emotional prosody (Belin 2000)."
+  },
+  "G_temp_sup-Plan_polar": {
+    "network": "somatomotor",
+    "functional_role": "temporal plane polar (Heschl region anterior)",
+    "terms": ["auditory association", "voice processing", "acoustic analysis"],
+    "affect_relevance": 0.2,
+    "notes": "Auditory belt cortex; modest emotion relevance via voice emotion processing."
+  },
+  "G_temp_sup-Plan_tempo": {
+    "network": "ventral_attention",
+    "functional_role": "planum temporale (auditory cortex, language lateralization)",
+    "terms": ["auditory scene analysis", "language lateralization", "speech perception", "musical pitch"],
+    "affect_relevance": 0.25,
+    "notes": "Planum temporale is strongly left-lateralized for language; also tracks emotional prosody."
+  },
+  "G_temporal_inf": {
+    "network": "default",
+    "functional_role": "inferior temporal gyrus (IT cortex)",
+    "terms": ["object recognition", "semantic memory", "visual concept", "object-word association"],
+    "affect_relevance": 0.3,
+    "notes": "High-level visual and semantic processing; moderate affect relevance via emotional concept knowledge."
+  },
+  "G_temporal_middle": {
+    "network": "default",
+    "functional_role": "middle temporal gyrus (MTG)",
+    "terms": ["semantic memory", "narrative comprehension", "language", "social concepts", "emotional semantics"],
+    "affect_relevance": 0.5,
+    "notes": "MTG is a key semantic hub; carries emotional semantic content (words for emotions, concepts)."
+  },
+  "Lat_Fis-ant-Horizont": {
+    "network": "ventral_attention",
+    "functional_role": "anterior horizontal ramus of lateral sulcus",
+    "terms": ["language processing", "inferior frontal", "sulcal anatomy"],
+    "affect_relevance": 0.15,
+    "notes": "Anatomical sulcal region adjacent to IFG; minimal independent function."
+  },
+  "Lat_Fis-ant-Vertical": {
+    "network": "ventral_attention",
+    "functional_role": "anterior vertical ramus of lateral sulcus",
+    "terms": ["language processing", "inferior frontal", "sulcal anatomy"],
+    "affect_relevance": 0.15,
+    "notes": "Anatomical sulcal region adjacent to IFG."
+  },
+  "Lat_Fis-post": {
+    "network": "somatomotor",
+    "functional_role": "posterior lateral sulcus (Sylvian fissure)",
+    "terms": ["auditory-motor integration", "language", "sensorimotor"],
+    "affect_relevance": 0.15,
+    "notes": "Region surrounding posterior Sylvian fissure; auditory and language processing."
+  },
+  "Medial_wall": {
+    "network": "default",
+    "functional_role": "medial wall (supplementary motor area region)",
+    "terms": ["motor planning", "volition", "action initiation"],
+    "affect_relevance": 0.15,
+    "notes": "Medial surface label including SMA and pre-SMA; involved in voluntary action initiation."
+  },
+  "Pole_occipital": {
+    "network": "visual",
+    "functional_role": "occipital pole (V1 foveal region)",
+    "terms": ["primary visual cortex", "foveal vision", "retinotopic"],
+    "affect_relevance": 0.05,
+    "notes": "Primary visual cortex, foveal representation; very low emotion relevance."
+  },
+  "Pole_temporal": {
+    "network": "default",
+    "functional_role": "temporal pole (anterior temporal lobe, ATL)",
+    "terms": ["social emotion", "semantic emotional knowledge", "person knowledge", "conceptual semantics", "empathy"],
+    "affect_relevance": 0.85,
+    "notes": "Temporal pole is a major semantic-emotional hub; codes knowledge about people, emotional situations, and social concepts (Olson 2007). Strongly co-activates with amygdala in emotional/social processing."
+  },
+  "S_calcarine": {
+    "network": "visual",
+    "functional_role": "calcarine sulcus (primary visual cortex V1)",
+    "terms": ["primary visual cortex", "basic visual perception", "retinotopic mapping"],
+    "affect_relevance": 0.05,
+    "notes": "V1 calcarine; minimal direct emotion relevance."
+  },
+  "S_central": {
+    "network": "somatomotor",
+    "functional_role": "central sulcus (motor-sensory border)",
+    "terms": ["motor execution", "sensorimotor", "hand area"],
+    "affect_relevance": 0.05,
+    "notes": "Central sulcus boundary; minimal direct emotion relevance."
+  },
+  "S_cingul-Marginalis": {
+    "network": "default",
+    "functional_role": "marginal sulcus of cingulate (motor cingulate)",
+    "terms": ["sensorimotor cingulate", "action monitoring", "motor preparation"],
+    "affect_relevance": 0.25,
+    "notes": "Posterior cingulate/motor region boundary; limited direct emotional function."
+  },
+  "S_circular_insula_ant": {
+    "network": "ventral_attention",
+    "functional_role": "anterior circular sulcus of insula",
+    "terms": ["interoception", "visceral processing", "salience", "anxiety", "autonomic regulation"],
+    "affect_relevance": 0.85,
+    "notes": "Bordering anterior insula; processes interoceptive and affective signals. Part of the salience network."
+  },
+  "S_circular_insula_inf": {
+    "network": "ventral_attention",
+    "functional_role": "inferior circular sulcus of insula",
+    "terms": ["reward", "taste", "interoception", "autonomic"],
+    "affect_relevance": 0.7,
+    "notes": "Inferior insula boundary; processes gustatory and reward signals."
+  },
+  "S_circular_insula_sup": {
+    "network": "somatomotor",
+    "functional_role": "superior circular sulcus of insula (auditory-vestibular)",
+    "terms": ["auditory processing", "vestibular", "sensorimotor integration"],
+    "affect_relevance": 0.15,
+    "notes": "Bordering posterior insula; primarily auditory and vestibular function."
+  },
+  "S_collat_transv_ant": {
+    "network": "default",
+    "functional_role": "anterior collateral sulcus (parahippocampal cortex)",
+    "terms": ["spatial scene memory", "parahippocampal", "contextual processing", "place recognition"],
+    "affect_relevance": 0.5,
+    "notes": "Parahippocampal place area (PPA); encodes spatial context and contributes to contextual fear conditioning."
+  },
+  "S_collat_transv_post": {
+    "network": "visual",
+    "functional_role": "posterior collateral sulcus (lingual/fusiform junction)",
+    "terms": ["visual memory", "object recognition", "visual familiarity"],
+    "affect_relevance": 0.15,
+    "notes": "Posterior visual temporal; low direct emotion relevance."
+  },
+  "S_front_inf": {
+    "network": "frontoparietal",
+    "functional_role": "inferior frontal sulcus (IFS)",
+    "terms": ["language", "executive function", "cognitive control", "verbal working memory"],
+    "affect_relevance": 0.35,
+    "notes": "Inferior frontal; supports language and cognitive control including emotion regulation."
+  },
+  "S_front_middle": {
+    "network": "frontoparietal",
+    "functional_role": "middle frontal sulcus (DLPFC)",
+    "terms": ["working memory", "attentional control", "emotion regulation", "executive function"],
+    "affect_relevance": 0.5,
+    "notes": "DLPFC sulcus; important for emotion regulation via top-down control of limbic activity."
+  },
+  "S_front_sup": {
+    "network": "frontoparietal",
+    "functional_role": "superior frontal sulcus (dorsal premotor / DLPFC border)",
+    "terms": ["executive function", "working memory", "attention"],
+    "affect_relevance": 0.3,
+    "notes": "Dorsal prefrontal sulcus; moderate role in cognitive regulation of emotion."
+  },
+  "S_interm_prim-Jensen": {
+    "network": "somatomotor",
+    "functional_role": "Jensen's sulcus (intraparietal region, postcentral)",
+    "terms": ["somatosensory association", "proprioception", "intraparietal"],
+    "affect_relevance": 0.1,
+    "notes": "Postcentral/intraparietal; minimal direct emotion function."
+  },
+  "S_intrapariet_and_P_trans": {
+    "network": "dorsal_attention",
+    "functional_role": "intraparietal sulcus (IPS)",
+    "terms": ["spatial attention", "number processing", "top-down attention", "visuospatial working memory"],
+    "affect_relevance": 0.15,
+    "notes": "IPS is central to spatial attention and numerical cognition; low direct emotion relevance."
+  },
+  "S_oc-temp_lat": {
+    "network": "visual",
+    "functional_role": "lateral occipitotemporal sulcus (visual temporal)",
+    "terms": ["face processing", "object recognition", "visual category"],
+    "affect_relevance": 0.3,
+    "notes": "Visual temporal sulcus; moderate affect relevance via emotional face processing."
+  },
+  "S_oc-temp_med_and_Lingual": {
+    "network": "visual",
+    "functional_role": "medial occipitotemporal sulcus (lingual area)",
+    "terms": ["visual word form", "color perception", "visual memory"],
+    "affect_relevance": 0.1,
+    "notes": "Lingual region; visual word form and color; low direct emotion relevance."
+  },
+  "S_oc_middle_and_Lunatus": {
+    "network": "visual",
+    "functional_role": "middle occipital sulcus and lunate sulcus",
+    "terms": ["visual motion", "ventral/dorsal stream border", "visual cortex"],
+    "affect_relevance": 0.05,
+    "notes": "Transition occipital region; minimal emotion relevance."
+  },
+  "S_oc_sup_and_transversal": {
+    "network": "visual",
+    "functional_role": "superior occipital sulcus (dorsal stream)",
+    "terms": ["spatial vision", "dorsal visual stream", "visuospatial"],
+    "affect_relevance": 0.05,
+    "notes": "Dorsal visual; minimal emotion relevance."
+  },
+  "S_occipital_ant": {
+    "network": "visual",
+    "functional_role": "anterior occipital sulcus",
+    "terms": ["ventral visual stream", "object recognition"],
+    "affect_relevance": 0.1,
+    "notes": "Ventral visual; minimal direct emotion relevance."
+  },
+  "S_orbital-H_Shaped": {
+    "network": "default",
+    "functional_role": "H-shaped orbital sulci (OFC)",
+    "terms": ["reward processing", "emotional decision-making", "taste", "hedonic value"],
+    "affect_relevance": 0.75,
+    "notes": "OFC H-shaped sulci code reward and punishment; central to affective decision-making."
+  },
+  "S_orbital_lateral": {
+    "network": "default",
+    "functional_role": "lateral orbital sulcus (lateral OFC)",
+    "terms": ["punishment processing", "loss aversion", "emotion regulation", "reward extinction"],
+    "affect_relevance": 0.7,
+    "notes": "Lateral OFC codes negative outcomes and punishment; important for adaptive emotional regulation."
+  },
+  "S_orbital_med-olfact": {
+    "network": "limbic",
+    "functional_role": "medial orbital sulcus / vmPFC (olfactory cortex)",
+    "terms": ["reward valuation", "olfaction", "subjective value", "positive emotion", "vmPFC"],
+    "affect_relevance": 0.85,
+    "notes": "Medial OFC / vmPFC is a critical emotion-value region; strongly coupled with amygdala (Hare 2009) and ventral striatum. Tracks subjective emotional value."
+  },
+  "S_parieto_occipital": {
+    "network": "dorsal_attention",
+    "functional_role": "parieto-occipital sulcus",
+    "terms": ["visuospatial attention", "dorsal visual stream", "saccades"],
+    "affect_relevance": 0.05,
+    "notes": "Parieto-occipital transition; dorsal visual and attentional; low emotion relevance."
+  },
+  "S_pericallosal": {
+    "network": "default",
+    "functional_role": "cingulate sulcus (ACC / mid-cingulate)",
+    "terms": ["emotion processing", "attention", "cingulate", "cognitive-emotional integration"],
+    "affect_relevance": 0.55,
+    "notes": "Cingulate sulcus region spanning ACC and mid-cingulate; involved in emotional attention and motivation."
+  },
+  "S_postcentral": {
+    "network": "somatomotor",
+    "functional_role": "postcentral sulcus (SI/SII border)",
+    "terms": ["somatosensory association", "tactile processing"],
+    "affect_relevance": 0.15,
+    "notes": "Somatosensory association; modest role via body-state signals in emotion."
+  },
+  "S_precentral-inf-part": {
+    "network": "somatomotor",
+    "functional_role": "inferior precentral sulcus (speech motor area)",
+    "terms": ["speech motor planning", "articulatory control", "language production"],
+    "affect_relevance": 0.2,
+    "notes": "Premotor / speech motor; minimal direct emotion relevance."
+  },
+  "S_precentral-sup-part": {
+    "network": "somatomotor",
+    "functional_role": "superior precentral sulcus (premotor cortex)",
+    "terms": ["action planning", "motor preparation", "premotor cortex"],
+    "affect_relevance": 0.1,
+    "notes": "Dorsal premotor; minimal direct emotion relevance."
+  },
+  "S_suborbital": {
+    "network": "limbic",
+    "functional_role": "suborbital sulcus (medial frontal / subgenual region)",
+    "terms": ["mood regulation", "reward anticipation", "subgenual", "emotional valence"],
+    "affect_relevance": 0.8,
+    "notes": "Near sgACC and medial OFC; processes mood and emotional valence; overlaps reward circuitry."
+  },
+  "S_subparietal": {
+    "network": "default",
+    "functional_role": "subparietal sulcus (parietal DMN)",
+    "terms": ["self-referential thought", "default mode", "social inference"],
+    "affect_relevance": 0.45,
+    "notes": "Posterior parietal DMN region; active during self-referential and social cognition."
+  },
+  "S_temporal_inf": {
+    "network": "default",
+    "functional_role": "inferior temporal sulcus (IT region)",
+    "terms": ["object recognition", "semantic memory", "visual concept retrieval"],
+    "affect_relevance": 0.3,
+    "notes": "High-level visual semantics; moderate affect relevance via emotional concept retrieval."
+  },
+  "S_temporal_sup": {
+    "network": "default",
+    "functional_role": "superior temporal sulcus (STS)",
+    "terms": ["social perception", "voice identity", "theory of mind", "biological motion", "emotional prosody"],
+    "affect_relevance": 0.7,
+    "notes": "STS is one of the most important cortical regions for social and emotional processing; tracks emotional prosody, social perception, and mentalizing (Allison 2000, Frith 2007)."
+  },
+  "S_temporal_transverse": {
+    "network": "somatomotor",
+    "functional_role": "transverse temporal sulcus (secondary auditory cortex)",
+    "terms": ["auditory processing", "sound feature extraction", "auditory belt cortex"],
+    "affect_relevance": 0.15,
+    "notes": "Secondary auditory cortex; auditory belt region; will be elevated for any audio input -- interpret in context of contrast."
+  }
+}

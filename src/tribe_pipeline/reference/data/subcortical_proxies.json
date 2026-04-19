@@ -1,0 +1,64 @@
+{
+  "amygdala": {
+    "status": "proxy",
+    "proxies": [
+      {"parcel": "Pole_temporal", "weight": 0.35, "basis": "Temporal pole strongly co-activates with amygdala in emotional/social processing (Olson 2007)"},
+      {"parcel": "G_insular_short", "weight": 0.30, "basis": "Anterior insula functionally coupled with amygdala in anxiety and salience network (Seeley 2007)"},
+      {"parcel": "S_orbital_med-olfact", "weight": 0.20, "basis": "vmPFC/mOFC-amygdala valuation circuit (Hare 2009)"},
+      {"parcel": "G_orbital", "weight": 0.15, "basis": "OFC-amygdala coupling in reward and threat learning"}
+    ],
+    "confidence": "moderate",
+    "limitations": "Cortical surrogate only; TribeV2 does not predict amygdala BOLD directly."
+  },
+  "ventral_striatum": {
+    "status": "proxy",
+    "proxies": [
+      {"parcel": "S_orbital_med-olfact", "weight": 0.40, "basis": "vmPFC-ventral striatum reward circuit (Haber 2010)"},
+      {"parcel": "G_subcallosal", "weight": 0.30, "basis": "sgACC-ventral striatum in depression and reward (Mayberg 2005)"},
+      {"parcel": "G_orbital", "weight": 0.30, "basis": "OFC-striatum interaction in reward valuation"}
+    ],
+    "confidence": "moderate",
+    "limitations": "Cortical surrogate only; ventral striatum is subcortical and not in fsaverage5."
+  },
+  "subgenual_ACC": {
+    "status": "direct",
+    "direct_parcel": "G_subcallosal",
+    "confidence": "high",
+    "limitations": "Surface prediction available; some signal-dropout vulnerability in empirical fMRI but predicted normally by TribeV2."
+  },
+  "vmPFC": {
+    "status": "direct",
+    "direct_parcel": "S_orbital_med-olfact",
+    "confidence": "high",
+    "limitations": "Approximated by medial orbital sulcus label in Destrieux atlas."
+  },
+  "anterior_insula": {
+    "status": "direct",
+    "direct_parcel": "G_insular_short",
+    "confidence": "high",
+    "limitations": "Short insular gyri approximate anterior insula; mid-insula included in G_Ins_lg_and_S_cent_ins."
+  },
+  "temporal_pole": {
+    "status": "direct",
+    "direct_parcel": "Pole_temporal",
+    "confidence": "high",
+    "limitations": "Temporal pole is on cortical surface and predicted directly."
+  },
+  "hypothalamus": {
+    "status": "unavailable",
+    "limitations": "Subcortical structure; not predicted by TribeV2 on fsaverage5 surface."
+  },
+  "periaqueductal_gray": {
+    "status": "unavailable",
+    "limitations": "Brainstem structure; not predicted by TribeV2 on fsaverage5 surface."
+  },
+  "hippocampus": {
+    "status": "proxy",
+    "proxies": [
+      {"parcel": "G_oc-temp_med-Parahip", "weight": 0.50, "basis": "Parahippocampal cortex is functionally and anatomically adjacent to hippocampus; encodes episodic context"},
+      {"parcel": "S_collat_transv_ant", "weight": 0.50, "basis": "Anterior collateral sulcus borders parahippocampal/entorhinal cortex"}
+    ],
+    "confidence": "low",
+    "limitations": "Hippocampus is subcortical; cortical proxies only approximate episodic/contextual memory function."
+  }
+}

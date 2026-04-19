@@ -1,0 +1,6 @@
+{
+  "stimulus": "The cat is on a table.",
+  "n_timesteps": 3,
+  "version": "1.0",
+  "note": "Single neutral sentence; replace with multi-sentence average via build-baseline for best results."
+}

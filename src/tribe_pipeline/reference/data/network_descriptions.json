@@ -1,0 +1,68 @@
+{
+  "visual": {
+    "name": "Visual Network",
+    "terms": [
+      "visual perception",
+      "object recognition",
+      "early visual processing",
+      "spatial representation"
+    ]
+  },
+  "somatomotor": {
+    "name": "Somatomotor Network",
+    "terms": [
+      "motor control",
+      "sensory processing",
+      "body representation",
+      "auditory processing"
+    ]
+  },
+  "dorsal_attention": {
+    "name": "Dorsal Attention Network",
+    "terms": [
+      "top-down attention",
+      "spatial attention",
+      "goal-directed processing",
+      "working memory"
+    ]
+  },
+  "ventral_attention": {
+    "name": "Ventral Attention Network",
+    "terms": [
+      "stimulus-driven attention",
+      "salience",
+      "interoception",
+      "language articulation"
+    ]
+  },
+  "limbic": {
+    "name": "Limbic Network",
+    "terms": [
+      "emotion regulation",
+      "reward processing",
+      "olfaction",
+      "motivation"
+    ]
+  },
+  "frontoparietal": {
+    "name": "Frontoparietal Network",
+    "terms": [
+      "cognitive control",
+      "executive function",
+      "working memory",
+      "flexible task control",
+      "language production"
+    ]
+  },
+  "default": {
+    "name": "Default Mode Network",
+    "terms": [
+      "self-referential thought",
+      "autobiographical memory",
+      "social cognition",
+      "mind-wandering",
+      "semantic processing",
+      "narrative comprehension"
+    ]
+  }
+}

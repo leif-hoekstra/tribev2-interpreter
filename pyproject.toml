@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tribe-pipeline"
+version = "0.2.0"
+description = "Brain encoding + LLM interpretation pipeline built on Facebook's TribeV2 model"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11,<3.14"
+authors = [{ name = "Tribe Pipeline Contributors" }]
+keywords = ["neuroscience", "fmri", "brain-encoding", "tribev2", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy",
+    "nilearn>=0.13",
+    "python-dotenv",
+    "openai>=2.0",
+    "tabulate",
+    "torch>=2.5,<2.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov"]
+
+[project.scripts]
+tribe-pipeline = "tribe_pipeline.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/leif-hoekstra/tribev2-interpreter"
+Repository = "https://github.com/leif-hoekstra/tribev2-interpreter"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"tribe_pipeline.reference" = ["data/*.npy", "data/*.json", "data/affect_templates/*.npy"]
+"tribe_pipeline.baseline" = ["data/*.npy", "data/*.json"]
+"tribe_pipeline.validation" = ["stimuli/*.txt"]
+"tribe_pipeline.prompts" = ["*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
