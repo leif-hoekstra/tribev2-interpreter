@@ -9,7 +9,7 @@
 
 </div>
 
-TribeV2 Interpreter is a brain-encoding + emotion-interpretation pipeline built on top of Meta's [TribeV2](https://huggingface.co/facebook/tribev2) foundation model. It takes a piece of natural language text, runs it through a multimodal brain encoder to predict the cortical response an average human subject would produce when listening to that text read aloud, and then uses a large language model to reason about what that activation pattern tells us about the emotional content of the stimulus.
+TribeV2 Interpreter is a brain-encoding + emotion-interpretation pipeline built on top of Meta's [TribeV2](https://huggingface.co/facebook/tribev2) foundation model. It takes a piece of natural language text, runs it through a multimodal brain encoder to predict the cortical response an average human subject would produce when listening to that text read aloud, and then distils the raw 20 484-vertex prediction into named brain regions, subcortical proxy scores, and published affect signatures — before handing all three to a large language model that reasons about what the neural pattern reveals about the emotional content of the stimulus.
 
 ---
 
